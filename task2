@@ -1,0 +1,28 @@
+import sys
+while True:
+    print("\n1.addition\n2.subraction\n3.multiplication\n4.divison\n5.percentage\n6.exit")
+    c=float(input("enter the choice:"))
+    def math(c):
+        if c==1:
+            a=int(input("enter the number:"))
+            b=int(input("enter the number:"))
+            print(a+b)
+        elif c==2:
+            a=int(input("enter the number:"))
+            b=int(input("enter the number:"))
+            print(a-b)
+        elif c==3:
+            a=int(input("enter the number:"))
+            b=int(input("enter the number:"))
+            print(a*b)
+        elif c==4:
+            a=int(input("enter the number:"))
+            b=int(input("enter the number:"))
+            print(a/b)
+        elif c==5:
+            a=int(input("enter the number:"))
+            b=int(input("enter the number:"))
+            print(a%b)
+        else:
+            sys.exit(1)
+    math(c)
